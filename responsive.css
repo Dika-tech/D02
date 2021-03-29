@@ -1,0 +1,33 @@
+/* untuk tablet */
+
+@media(min-width:992px){
+
+    .container{
+        max-width:960px;
+    }
+
+}
+
+@media(min-width:768px){
+
+    .container{
+        max-width:720px;
+    }
+}
+
+@media(min-width:576px){
+
+    *{
+        box-sizing: border-box;
+    }
+    .row{
+        display:none;
+    }
+
+    .d-none{
+        display:block;
+    }
+    .container{
+        max-width:540px;
+    }
+}
